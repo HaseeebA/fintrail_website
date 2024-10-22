@@ -205,7 +205,7 @@ const Backlink = () => {
         />
       </svg>
 
-      <span>Web3Templates</span>
+      {/* <span>Web3Templates</span> */}
     </a>
   );
 };
