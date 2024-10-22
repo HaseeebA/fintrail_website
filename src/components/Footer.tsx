@@ -36,7 +36,7 @@ export function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              FinTrail is the all-in-one finance app designed to automate expense tracking, simplify bill splitting, and provide real-time portfolio updates. Built with cutting-edge technology, it's secure, user-friendly, and efficient.
+              FinTrail is the all-in-one finance app designed to automate expense tracking, simplify bill splitting, and provide real-time portfolio updates. Built with cutting-edge technology, it is secure, user-friendly, and efficient.
             </div>
 
 
