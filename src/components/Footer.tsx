@@ -129,8 +129,6 @@ export function Footer() {
           </a>
         </div> */}
       </Container>
-      {/* Do not remove this */}
-      <Backlink />
     </div>
   );
 }
