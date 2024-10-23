@@ -11,7 +11,7 @@ const PrivacyPolicy: NextPage = () => {
 			<main className="container mx-auto px-4 py-8">
 				<h1 className="text-4xl font-bold mb-4">Privacy Policy</h1>
 				<p className="mb-4">
-					At FinTrail, we are committed to protecting your privacy. This Privacy
+					At FinTrail, we  are committed to protecting your privacy. This Privacy
 					Policy outlines our practices regarding the collection, use, and
 					disclosure of your information.
 				</p>
