@@ -1,7 +1,7 @@
 {
-  "name": "nextly-template",
+  "name": "fintrail-website",
   "version": "2.0.0",
-  "description": "Nextly Landing Page Template",
+  "description": "FinTrail Website",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -18,8 +18,6 @@
     "tailwindcss",
     "free"
   ],
-  "author": "Surjith S M",
-  "license": "ISC",
   "dependencies": {
     "@headlessui/react": "^2.0.3",
     "@heroicons/react": "^2.1.3",

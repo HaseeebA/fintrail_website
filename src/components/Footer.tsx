@@ -25,7 +25,7 @@ export function Footer() {
                 className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
               >
                 <Image
-                  src="/img/logo.svg"
+                  src="/img/icon.png"
                   alt="N"
                   width="32"
                   height="32"
@@ -86,14 +86,14 @@ export function Footer() {
           <div className="">
             <div>Follow us</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
-              <a
+              {/* <a
                 href="https://twitter.com/web3templates"
                 target="_blank"
                 rel="noopener"
               >
                 <span className="sr-only">Twitter</span>
                 <Twitter />
-              </a>
+              </a> */}
               <a
                 href="https://facebook.com/web3templates"
                 target="_blank"
@@ -103,14 +103,14 @@ export function Footer() {
                 <Facebook />
               </a>
               <a
-                href="https://instagram.com/web3templates"
+                href="https://instagram.com/fintrail.app"
                 target="_blank"
                 rel="noopener"
               >
                 <span className="sr-only">Instagram</span>
                 <Instagram />
               </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener">
+              <a href="https://linkedin.com/company/fintrailapp" target="_blank" rel="noopener">
                 <span className="sr-only">Linkedin</span>
                 <Linkedin />
               </a>
