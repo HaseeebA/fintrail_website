@@ -44,8 +44,8 @@ const benefitTwo = {
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Built with Next.js & TailwindCSS",
-      desc: "Leverage the power of modern web technologies for a fast, responsive, and attractive application.",
+      title: "Built with Flutter",
+      desc: "Leverage the power of Flutter to enjoy a smooth and responsive user experience.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {

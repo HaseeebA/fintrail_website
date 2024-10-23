@@ -6,6 +6,7 @@ import userOneImg from "../../public/img/user1.jpg";
 import userTwoImg from "../../public/img/user2.jpg";
 import userThreeImg from "../../public/img/user3.jpg";
 
+
 export const Testimonials = () => {
   return (
     <Container>
@@ -13,42 +14,45 @@ export const Testimonials = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+              The <Mark>automatic expense tracking</Mark> from SMS is a game-changer! 
+              I used to spend hours logging expenses, but now FinTrail does it all 
+              instantly. It&apos;s transformed how I manage my monthly budget.
             </p>
 
             <Avatar
               image={userOneImg}
-              name="Sarah Steiner"
-              title="VP Sales at Google"
+              name="Sara Khan"
+              title=""
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
+              Having my <Mark>stocks and bill-splitting</Mark> in one app is brilliant. 
+              I use it daily with my roommates, and the real-time portfolio updates 
+              keep me on top of my investments.
             </p>
 
             <Avatar
               image={userTwoImg}
-              name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
+              name="Asad Hameed"
+              title=""
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I&apos;ve
-              seen. I would use this for anything.
+              The <Mark>dark mode and mobile-first design</Mark> make it perfect for 
+              daily use. Love how I can check my crypto portfolio and track expenses 
+              on the go!
             </p>
 
             <Avatar
               image={userThreeImg}
-              name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
+              name="Saad Hassan"
+              title=""
             />
           </div>
         </div>

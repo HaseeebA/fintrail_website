@@ -23,14 +23,14 @@ export default function Home() {
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
-      <SectionTitle
+      {/* <SectionTitle
         preTitle="Watch a video"
         title="Discover how FinTrail works"
       >
         Learn how FinTrail can transform the way you manage your finances. A quick demo can show you how easy it is to stay on top of your expenses, investments, and more.
       </SectionTitle>
 
-      <Video videoId="fZ0D0cnR88E" />
+      <Video videoId="fZ0D0cnR88E" /> */}
 
       <SectionTitle
         preTitle="Testimonials"

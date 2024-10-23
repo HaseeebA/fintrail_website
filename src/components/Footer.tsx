@@ -12,7 +12,7 @@ export function Footer() {
     "Privacy Policy",
     // "Blog"
   ];
-  const legal = ["Terms"];
+  // const legal = ["Terms"];
   return (
     <div className="relative">
       <Container>
@@ -72,19 +72,6 @@ export function Footer() {
               ))}
             </div>
           </div>
-          <div>
-            <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
-              {legal.map((item, index) => (
-                <Link
-                  key={index}
-                  href={item === "Privacy Policy" ? "/privacy" : "/"}
-                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
-                >
-                  {item}
-                </Link>
-              ))}
-            </div>
-          </div>
           <div className="">
             <div>Follow us</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
@@ -96,14 +83,14 @@ export function Footer() {
                 <span className="sr-only">Twitter</span>
                 <Twitter />
               </a> */}
-              <a
+              {/* <a
                 href="https://facebook.com/web3templates"
                 target="_blank"
                 rel="noopener"
               >
                 <span className="sr-only">Facebook</span>
                 <Facebook />
-              </a>
+              </a> */}
               <a
                 href="https://instagram.com/fintrail.app"
                 target="_blank"
@@ -117,6 +104,12 @@ export function Footer() {
                 <Linkedin />
               </a>
             </div>
+          </div>
+          <div>
+            <div>Contact us</div>
+
+            <p className="mt-2 text-gray-500 dark:text-gray-400">Phone: +92 314 6397800</p>
+            <p className="mt-1 text-gray-500 dark:text-gray-400">Email: fintrailapp@gmail.com</p>
           </div>
         </div>
 
