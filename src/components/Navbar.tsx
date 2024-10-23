@@ -6,10 +6,10 @@ import { Disclosure } from "@headlessui/react";
 
 export const Navbar = () => {
   const navigation = [
-    { name: "Features", href: "/features" },
-    { name: "About Us", href: "/about" },
+    // { name: "Features", href: "/features" },
+    // { name: "About Us", href: "/about" },
     { name: "Privacy Policy", href: "/privacy" },
-    { name: "Blog", href: "/blog" },
+    // { name: "Blog", href: "/blog" },
   ];
 
   return (
