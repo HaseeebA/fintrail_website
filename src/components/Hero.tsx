@@ -36,10 +36,12 @@ export const Hero = () => {
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								<img
+								<Image
 									src="/img/playicon.png"
 									alt="Get it on Google Play"
 									className="cursor-pointer py-4 w-44 md:w-52 lg:w-60"
+									width={176}
+									height={60}
 								/>
 							</a>
 						</div>
@@ -48,7 +50,7 @@ export const Hero = () => {
 				<div className="flex items-center justify-center w-full lg:w-1/2">
 					<div className="">
 						<Image
-							src={theme === "dark" ? heroImgDark : heroImg}
+							src={theme === "light" ? heroImg : heroImgDark}
 							width="616"
 							height="617"
 							className={"object-cover"}

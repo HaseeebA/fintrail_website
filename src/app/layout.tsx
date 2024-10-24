@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
@@ -9,6 +10,7 @@ import { PopupWidget } from "@/components/PopupWidget";
 import Head from 'next/head';
 
 const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "FinTrail",
@@ -26,8 +28,8 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
-      <body className={inter.className}>
-        <ThemeProvider attribute="class">
+      <body className={montserrat.className}>
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <Navbar />
           <div className="container">
             {children}

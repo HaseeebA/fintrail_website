@@ -122,7 +122,7 @@ const PrivacyPolicy: NextPage = () => {
 				<p className="mb-4">
 				  If you have any questions about this Privacy Policy or our data practices, please contact us at:
 				  <br />
-				  <a href="mailto:fintrailapp@gmail.com" className="text-blue-600 hover:underline">
+				  <a href="mailto:fintrailapp@gmail.com" className="text-indigo-600 hover:underline">
 					fintrailapp@gmail.com
 				  </a>
 				</p>
