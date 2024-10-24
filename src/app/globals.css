@@ -5,6 +5,7 @@
 
 
 @layer base {
+
   html,
   body {
     @apply dark:bg-trueGray-900;
@@ -12,9 +13,31 @@
 }
 
 /* globals.css */
-
 body {
   margin: 0 auto;
-  padding: 0 1rem; /* Adjust padding as needed */
-  max-width: 1300px; 
+  padding: 0 1rem;
+  /* Default padding */
+  max-width: 1300px;
+  padding-left: 1rem;
+  /* Default padding for mobile devices */
+  padding-right: 1rem;
+  /* Default padding for mobile devices */
+}
+
+@media (min-width: 640px) {
+  body {
+    padding-left: 1.5rem;
+    /* Small screens and up */
+    padding-right: 1.5rem;
+    /* Small screens and up */
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-left: 2rem;
+    /* Medium screens and up */
+    padding-right: 2rem;
+    /* Medium screens and up */
+  }
 }
