@@ -72,6 +72,9 @@ export function Footer() {
 								</Link>
 							))}
 						</div>
+						<a className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0 w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 dark:hover:text-indigo-500">
+							HAAS Inc.
+						</a>
 					</div>
 					<div className="">
 						<div>Follow us</div>
