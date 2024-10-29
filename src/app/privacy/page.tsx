@@ -62,8 +62,8 @@ const PrivacyPolicy: NextPage = () => {
               <li>
                 <strong>Cloud Storage:</strong> If backup is enabled, data is stored on secure servers using:
                 <ul className="list-circle pl-6 space-y-1">
-                  <li>AES-256 encryption for data at rest</li>
-                  <li>TLS 1.3 for data in transit</li>
+                  {/* <li>AES-256 encryption for data at rest</li> */}
+                  <li>TLS for data in transit</li>
                   <li>Regular security audits and monitoring</li>
                 </ul>
               </li>
