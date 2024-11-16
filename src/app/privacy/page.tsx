@@ -15,7 +15,7 @@ const PrivacyPolicy: NextPage = () => {
         <div className="space-y-8">
           <section>
             <p className="mb-4">
-              This Privacy Policy explains how HAAS Inc. We handle your data
+              This Privacy Policy explains how HAAS Inc. handles your data
               while using FinTrail, our personal finance management application. This policy applies to
               all services provided through our mobile application and associated services.
             </p>
