@@ -34,7 +34,7 @@ export const Hero = () => {
 							<a
 								href="https://play.google.com/store/apps/details?id=com.flutterflow.fintrail"
 								target="_blank"
-								rel="noopener noreferrer"
+								rel="noopener noreferrer" 
 							>
 								<Image
 									src="/img/playicon.png"
