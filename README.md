@@ -56,4 +56,3 @@ Haseeb Asad ( [@HaseeebA](https://github.com/HaseeebA) )
 ---
 
 Powered by Vercel [![image](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com?utm_source=fintrail&utm_campaign=oss)
-```
